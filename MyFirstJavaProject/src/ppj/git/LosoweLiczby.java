@@ -59,13 +59,13 @@ public class LosoweLiczby {
 			System.out.println("--");
 			BubbleSorty ob = new BubbleSorty();
 			ob.bubbleSorty(tablicaLosowa);
-			System.out.println("Najmniejsza wartoœæ to " + tablicaLosowa[99]);
-			System.out.println("Najwiêksza wartoœæ to " + tablicaLosowa[0]);
+			System.out.println("Najmniejsza wartość to " + tablicaLosowa[99]);
+			System.out.println("Najwieksza wartość to " + tablicaLosowa[0]);
 			System.out.println("Suma wszystkich = " + sumaLiczb);
 			System.out.println("Zer-" + suma0 + " Jedynek-" + suma1 + " Dwójek-" + suma2 + " Trójek-" + suma3 + " Czwórek-"
-					+ suma4 + " Pi¹tek-" + suma5 + " Szóstek-" + suma6 + " Siódemek-" + suma7 + " Ósemek-" + suma8
-					+ " Dziewi¹tek-" + suma9);
-			System.out.println("Posortowane b¹belkowo: ");
+					+ suma4 + " Piątek-" + suma5 + " Szóstek-" + suma6 + " Siódemek-" + suma7 + " Ósemek-" + suma8
+					+ " Dziewiątek-" + suma9);
+			System.out.println("Posortowane bąbelkowo: ");
 			for (int i = 0; i < 100; i++) {
 
 				System.out.print(tablicaLosowa[i] + " ");
